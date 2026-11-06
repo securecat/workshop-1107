@@ -6,3 +6,7 @@
 バージョン番号は [セマンティック バージョニング](https://semver.org/lang/ja/) に従います。
 
 ## [Unreleased]
+
+### 変更
+
+- `.gitignore` に VS Code のワークスペースファイル（`*.code-workspace`）を追加
