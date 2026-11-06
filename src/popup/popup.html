@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>仮の名前</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --color-text: #1a1a1a;
+      --color-bg: #ffffff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-text: #f2f2f2;
+        --color-bg: #1e1e1e;
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 1rem 1.5rem;
+      min-width: 12rem;
+      font-family: sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--color-text);
+      background-color: var(--color-bg);
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <main>
+    <p id="status">準備OK</p>
+  </main>
+</body>
+</html>
